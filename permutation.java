@@ -1,4 +1,4 @@
-public class Solution {
+public class permutation {
     public void nextPermutation(int[] nums) {
         int i = nums.length - 2;
         while (i >= 0 && nums[i + 1] <= nums[i]) {
@@ -31,7 +31,7 @@ public class Solution {
 
     public static void main(String[] args){
         int[] nums = {1,3,2};
-        Solution obj = new Solution();
+        permutation obj = new permutation();
         obj.nextPermutation(nums);
         
     }
